@@ -13,21 +13,21 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      "Are you sure?",
+      "Are you sure, lil kitty?",
       "What if I asked really nicely?",
       "Pretty please",
-      "With a chocolate rice cake on top",
-      "What about a matcha frostie",
-      "PLEASE POOKIE",
+      "I will give you your daily dose of milk :)",
+      "What about a matcha frostie top with a bit of my di...",
+      "You are such a fucking cat :>",
       "But :*(",
-      "I am going to die",
-      "Yep im dead",
-      "ok ur talking to nathan's ghost",
-      "please babe",
+      "Kylie, you better stop clicking no u fucking cat",
+      "Hais.",
+      "LOOK BEHIND YOU",
+      "You are so weird...",
       ":((((",
-      "PRETTY PLEASE",
-      "Estoy muerto",
-      "No :(",
+      "I could fu.. you after dinner?",
+      "THANK ABOUT IT",
+      ":(",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -37,8 +37,8 @@ export default function Page() {
     <div className="-mt-16 flex h-screen flex-col items-center justify-center">
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you pookie!! ;))</div>
+          <img src="https://media1.tenor.com/m/5bulV6844-MAAAAd/puppy-disturb.gif" />
+          <div className="my-4 text-4xl font-bold">WOOOO Good job kitty! ;)</div>
         </>
       ) : (
         <>
@@ -46,7 +46,7 @@ export default function Page() {
             className="h-[200px]"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
-          <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
+          <h1 className="my-4 text-4xl">Will you be my Valentine, Special friend?</h1>
           <div className="flex items-center">
             <button
               className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700`}
